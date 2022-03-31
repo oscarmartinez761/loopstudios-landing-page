@@ -1,0 +1,35 @@
+.header {
+    height: 100vh;
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-size: cover;
+    background-position: top center; 
+    
+    &__text {
+        border: 1px solid white;
+        padding: 1rem;
+        margin-top: 15rem;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .header {
+        height: 80vh !important;
+        background-image: url(../images/desktop/image-hero.jpg) !important;
+
+         
+        &__text {
+            width: 40%;
+            height: 200px;
+            margin: 12rem 0 0 6rem;
+            padding: 2rem;
+
+            & h1 {
+                margin: 0;
+                font-size: 4rem;
+                max-width: 500px;
+            }
+        }
+
+    }
+ }

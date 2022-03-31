@@ -1,0 +1,51 @@
+.interactive {
+    margin-top: 3rem;
+
+    &__img-container {
+       
+        & img {
+            margin-bottom: 1rem;
+        
+        }
+    }
+
+
+    &__text-container {
+        padding: 2rem;
+        
+        background-color: $White;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .interactive {
+        position: relative;
+
+
+        &__img-container {
+           margin-left: 6rem;
+           width: 100%;
+        }
+
+        &__text-container {
+            position: absolute;
+            bottom:0;
+            right: 3rem;
+            padding: 3rem;
+            width: 49%;
+           
+
+            & h1 {
+                font-size: 4rem;
+                text-align: left;
+            }
+
+            & p {
+                padding: 0;
+                text-align: left;
+                max-width: 450px;
+            }
+           
+        }
+    }
+}

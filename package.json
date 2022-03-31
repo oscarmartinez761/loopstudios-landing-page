@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Loopstudios Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "sass": " sass sass/main.scss css/main.css -w"
+  },
+  "author": "Oscar Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

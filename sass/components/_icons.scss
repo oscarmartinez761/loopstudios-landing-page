@@ -1,0 +1,19 @@
+
+//NAV ICONS
+    .nav__toggle {
+        border: none;
+        background-color: transparent;
+        display: inline-flex;
+        font-size: 1.15rem;
+        cursor: pointer;
+     }
+
+     .nav__close {
+        font-size: 2rem;
+        color: $VeryDarkGray;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+      
+      }

@@ -1,0 +1,45 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    background-color: black; 
+    font-family: $alata;
+    color: $VeryDarkGray;
+}
+.attribution a { 
+    color: $White; 
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+  padding: 3rem 2rem;
+  margin: 0 auto;  
+}

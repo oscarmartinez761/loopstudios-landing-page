@@ -1,0 +1,20 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 7rem;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 1rem;
+    cursor: pointer;
+    width: 50%;
+     
+}
+
+.btn-top {
+    display: none;
+}
+
+.button-container:hover {
+    background-color: $Black; 
+    color: $White;
+}

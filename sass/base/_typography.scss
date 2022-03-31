@@ -1,0 +1,80 @@
+
+/*NAV*/
+.nav__link {
+
+    font-family: $alata;
+    color: $VeryDarkGray; 
+    
+    &:hover {
+        color: $Black;
+    }
+}
+
+.footer .nav__link {
+    color: $White;
+
+    &:hover {
+        color: $DarkGray;
+    }
+}
+
+/*HEADER*/
+.header__text h1 {
+    font-weight: 300;
+    max-width: 200px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: $josefinSans;
+    color: $White;
+
+}
+
+/*INTERACTIVE SECTION*/
+.interactive__text-container h1 {
+    font-family: $josefinSans;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $Black;
+}
+
+.interactive__text-container p {
+    text-align: center;
+    font-family: $alata;
+    color: $DarkGray;
+    line-height: 1.5;
+    padding: 0 4rem;
+}
+
+/*CREATIONS  SECTION*/
+.creations h1 {
+    text-align: center;
+    font-family: $josefinSans;
+    text-transform: uppercase;
+}
+
+.creations__container p {
+    font-family: $josefinSans;
+    font-size: 1.5rem;
+    color: $White;
+}
+
+/*BUTTONS*/
+.button-container {
+    font-family: $josefinSans;
+    text-transform: uppercase;
+    color: $Black;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+}
+
+/*FOOTER*/
+.footer-text p {
+    color: $VeryDarkGray;
+    font-family: $alata;
+}
+
+.footer .icons-container {
+    text-align: center;
+}
